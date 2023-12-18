@@ -14,9 +14,9 @@ def main():
     savings_months = int(input("Enter the number of months for the savings account: "))
 
     # Call the create_savings_account function and pass the variables from the user.
-    # savings_updated_balance, savings_interest_earned = create_savings_account(savings_balance, savings_interest_rate, savings_months)
+    savings_updated_balance, savings_interest_earned = create_savings_account(savings_balance, savings_interest_rate, savings_months)
     # create_savings_account(savings_balance, savings_interest_rate, savings_months)
-    create_savings_account()
+    # create_savings_account()
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     print(f"Savings Account - Initial Balance: ${savings_balance:.2f}")
@@ -30,9 +30,9 @@ def main():
     cd_months = int(input("Enter the number of months for the CD account: "))
 
     # Call the create_cd_account function and pass the variables from the user.
-    # cd_updated_balance, cd_interest_earned = create_cd_account(cd_balance, cd_interest_rate, cd_months)
+    cd_updated_balance, cd_interest_earned = create_cd_account(cd_balance, cd_interest_rate, cd_months)
     # create_cd_account(cd_balance, cd_interest_rate, cd_months)
-    create_cd_account()
+    # create_cd_account()
   
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     print(f"\nCD Account - Initial Balance: ${cd_balance:.2f}")
