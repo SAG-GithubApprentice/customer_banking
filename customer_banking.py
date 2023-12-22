@@ -15,12 +15,9 @@ def main():
 
     # Call the create_savings_account function and pass the variables from the user.
     savings_updated_balance, savings_interest_earned = create_savings_account(savings_balance, savings_interest_rate, savings_months)
-    # create_savings_account(savings_balance, savings_interest_rate, savings_months)
-    # create_savings_account()
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     print(f"Savings Account - Initial Balance: ${savings_balance:.2f}")
-    # print(f"Interest Earned: ${savings_interest_earned:.2f}")
     print(f"Interest Earned: ${savings_interest_earned:.2f}")
     print(f"Updated Balance: ${savings_updated_balance:.2f}")
 
@@ -31,8 +28,6 @@ def main():
 
     # Call the create_cd_account function and pass the variables from the user.
     cd_updated_balance, cd_interest_earned = create_cd_account(cd_balance, cd_interest_rate, cd_months)
-    # create_cd_account(cd_balance, cd_interest_rate, cd_months)
-    # create_cd_account()
   
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     print(f"\nCD Account - Initial Balance: ${cd_balance:.2f}")
