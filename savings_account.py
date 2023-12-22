@@ -21,7 +21,6 @@ def create_savings_account(balance, interest_rate, months):
     # Calculate interest earned
     interest_earned = ((balance)*(interest_rate)*(months / 12)) / 100
 
-    
     # Update the savings account balance by adding the interest earned
     updated_balance = balance + interest_earned
 
